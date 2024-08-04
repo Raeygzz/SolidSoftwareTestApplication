@@ -101,4 +101,4 @@ yarn expo start --web
 
 ## Authors
 
-- [@ReganTimsina](https://github.com/raeygzz)
+- [@ReganTimsina](https://github.com/Raeygzz/TestApplication)
