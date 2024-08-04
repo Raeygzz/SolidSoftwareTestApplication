@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+# Test Application Template
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a Test Application.
 
-## Get started
+## Prerequisite
 
-1. Install dependencies
+To build and run the project following cli is necessary
 
-   ```bash
-   npm install
-   ```
+- [Node](https://nodejs.org/en)
+- [Expo Go](https://expo.dev/go)
+- [expo-cli](https://github.com/expo/expo-cli)
 
-2. Start the app
+## Folder Structure
 
-   ```bash
-    npx expo start
-   ```
+- /src
+  - app &gt; `Main folder`
+  - assets &gt; `Resources; fonts, images, svg`
+  - components &gt; `Reusable Components`
+  - constants &gt; `Constant values`
+  - hooks &gt; `Reusable hooks`
+  - services &gt; `Mock / Api call, Localization, Notification`
+  - types &gt; `Generic types`
+  - utils &gt; `Reusable function`
+  - validations &gt; `Form validations`
 
-In the output, you'll find options to open the app in a
+## Environment Variables
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To run this project, you will need to add the following environment variables to your .env file
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+# <Add variables>
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Setup Android/iOS/Web app
 
-## Learn more
+Clone the project & go to the project directory then install dependencies using
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+yarn install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Run Locally
 
-## Join the community
+```bash
+npx expo start --web
+yarn expo start --web
+```
 
-Join our community of developers creating universal apps.
+## Dependencies
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```
+"@expo/vector-icons": "^14.0.2",
+"@react-navigation/native": "^6.0.2",
+"expo": "~51.0.24",
+"expo-constants": "~16.0.2",
+"expo-font": "~12.0.9",
+"expo-linking": "~6.3.1",
+"expo-router": "~3.5.20",
+"expo-splash-screen": "~0.27.5",
+"expo-status-bar": "~1.12.1",
+"expo-system-ui": "~3.0.7",
+"expo-web-browser": "~13.0.3",
+"react": "18.2.0",
+"react-dom": "18.2.0",
+"react-native": "0.74.3",
+"react-native-gesture-handler": "~2.16.1",
+"react-native-reanimated": "~3.10.1",
+"react-native-safe-area-context": "4.10.5",
+"react-native-screens": "3.31.1",
+"react-native-web": "~0.19.10"
+```
+
+## devDependencies
+
+```
+"@babel/core": "^7.20.0",
+"@types/jest": "^29.5.12",
+"@types/react": "~18.2.45",
+"@types/react-test-renderer": "^18.0.7",
+"jest": "^29.2.1",
+"jest-expo": "~51.0.3",
+"react-test-renderer": "18.2.0",
+"typescript": "~5.3.3"
+```
+
+## Tech Stack
+
+- [react-native](https://reactnative.dev/)
+- [expo](https://docs.expo.dev)
+
+# ToDos
+
+1. Install the plugin(Prettier - Code formatter) on vs code.
+2. While searching "Format on save" on Preference -> Settings, "Format on Save" is displayed. Click on the checkbox to apply prettier on save.
+
+## Authors
+
+- [@ReganTimsina](https://github.com/raeygzz)
+
